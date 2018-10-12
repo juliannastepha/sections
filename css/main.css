@@ -16,6 +16,8 @@ body {
 
 section {
   vertical-align: middle;
+  text-align: center;
+  margin: 0;
 }
 
 .image {
@@ -28,7 +30,8 @@ section {
 img {
   display: block;
   width: 100%;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .words {
@@ -44,7 +47,8 @@ img {
 h2 {
   display: inline-block;
   font-weight: bolder;
-  margin: .5rem;
+  margin-bottom: .5rem;
+  margin-top: 0;
 }
 
 p {

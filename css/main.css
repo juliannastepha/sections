@@ -14,9 +14,14 @@ body {
   margin: 0;
 }
 
+section {
+  vertical-align: middle;
+}
+
 .image {
   display: inline-block;
   max-width: 25em;
+  margin-top: 1.5rem;
   padding: 1.5em 1em;
 }
 
@@ -30,13 +35,15 @@ img {
   display: inline-block;
   max-width: 25em;
   text-align: left;
-  margin: 1.5rem;
-  padding: 1.5em;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  padding-top: 1.5em;
+  padding-left: 1em;
 }
 
 h2 {
   display: inline-block;
-  font-weight: bold;
+  font-weight: bolder;
   margin: .5rem;
 }
 
